@@ -1,8 +1,8 @@
 export default function HomePage() {
     return (
         
-        <div className="flex justify-between items-center h-full">
-            <div className="w-[50%] py-10 pl-48 flex flex-col justify-center items-start gap-4">
+        <div className="flex justify-center items-center h-full">
+            <div className=" pt-20 pl-48 flex flex-col justify-center items-start gap-4">
                 <div className="flex gap-4 items-center">
                     <div className="w-12 h-12 rounded-full bg-[url(/me.jpeg)] bg-cover bg-center">
                        
@@ -19,10 +19,11 @@ export default function HomePage() {
                         html5, CSS, tailwindcss, TypeScript, React and Next.js.
                         Let's make something happen! </p>
             </div>
-            <div className="text-start text-8xl break-word flex flex-col justify-between items-start gap-6 text-slate-200">
+            <div className="text-start text-8xl break-word flex flex-col justify-between items-start gap-4 pr-10 text-slate-200">
                 <p>WAIT,</p>
                 <p> THIS IS </p>
-                <p>MY PORTFOLIO?!</p>
+                <p>MY</p>
+                <p>PORTFOLIO?!</p>
             </div>
 
         </div>

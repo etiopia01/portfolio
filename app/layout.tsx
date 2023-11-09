@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import { Lora } from 'next/font/google'
+import NavBar from '@/components/NavBar'
+import SocialBar from '@/components/SocialBar'
 
 const lora = Lora({
   subsets: ["latin"],
@@ -24,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lora.className} bg-slate-800 h-full relative`}>{children}</body>
+      
+      <body className={`${lora.className} bg-slate-800 h-full relative flex flex-col justify-center items-center`}>{children}</body>
+      
     </html>
   )
 }
