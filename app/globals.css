@@ -6,3 +6,12 @@ html {
     height: 100vh;
     
 }
+.rps {
+    background-image: url("/rps.png");
+}
+.todo {
+    background-image: url("/todo.png");
+}
+.countries {
+    background-image: url("/countries.png");
+}

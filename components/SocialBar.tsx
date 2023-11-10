@@ -3,7 +3,7 @@ export default function SocialBar() {
         <>
         <div className="absolute bottom-0 left-0 right-0 h-20 flex justify-center items-center gap-4 p-16">
             
-            <a className="bg-[url(/github.svg)] h-10 w-10 bg-cover bg-center" href="" target={"_blank"}
+            <a className="bg-[url(/github.svg)] h-10 w-10 bg-cover bg-center" href="https://github.com/etiopia01" target={"_blank"}
 rel={"noreferrer"}></a>
             
             
