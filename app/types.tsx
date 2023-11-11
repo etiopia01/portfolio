@@ -3,5 +3,6 @@ export type ProjectProps = {
     github: string,
     vercel: string,
     title: string,
-    des: string
+    des: string,
+    id: number
 }
