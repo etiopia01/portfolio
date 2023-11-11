@@ -22,9 +22,9 @@ const myProjects = [{
 
 export default function Projects() {
     return (
-        <div className="flex flex-col items-center justify-start gap-6 w-full h-[500px]">
-            <h1 className="text-3xl font-bold text-slate-300">MY PROJECTS</h1>
-            <div className="flex justify-between flex-wrap w-auto gap-16">
+        <div className="flex flex-col items-center justify-start gap-10 w-full  ">
+            <h1 className="text-3xl font-bold text-slate-300 ">MY PROJECTS</h1>
+            <div className="flex justify-center flex-wrap w-auto gap-16 p-10 overflow-y-scroll h-[500px]">
             {myProjects.map(project => <Project {...project}/>)}
             </div>
         </div>
