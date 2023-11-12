@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={`${lora.className} bg-slate-800 h-full relative flex flex-col justify-center items-center`}>{children}</body>
+      <body className={`${lora.className} bg-main-bg background h-full relative flex flex-col justify-center items-center`}>{children}</body>
       
     </html>
   )

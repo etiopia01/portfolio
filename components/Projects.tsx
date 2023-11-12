@@ -10,7 +10,7 @@ const myProjects = [{
 }, {
     class : "todo",
     github: "https://github.com/etiopia01/todo-list-tailwind",
-    vercel: "https://vercel.com/salvatores-projects-3fb13007/todo-list",
+    vercel: "https://todo-list-olive-nine-84.vercel.app/",
     title: "ToDo List",
     des: "Simple ToDo list I made when first practicing Tailwindcss",
     id:2
@@ -26,7 +26,7 @@ const myProjects = [{
 export default function Projects() {
     return (
         <div className="flex flex-col items-center justify-start gap-10 w-full  ">
-            <h1 className="text-3xl font-bold text-slate-300 ">MY PROJECTS</h1>
+            <h1 className="text-3xl font-bold text-main-text text-opacity-60">MY PROJECTS</h1>
             <div className="flex justify-center flex-wrap w-auto gap-16 p-10 overflow-y-scroll h-[500px]">
             {myProjects.map(project => <Project key={project.id} {...project}/>)}
             </div>
