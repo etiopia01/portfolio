@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Merriweather_Sans } from "next/font/google"
-const merri = Merriweather_Sans({
+export const merri = Merriweather_Sans({
 subsets: ["latin"],
 weight: ["300","400", "500", "700"],
 fallback: ["sans-serif"]
