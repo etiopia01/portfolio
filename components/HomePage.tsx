@@ -11,8 +11,8 @@ export default function HomePage() {
         <div className="h-[600px] overflow-scroll">
         <div className="flex flex-col-reverse justify-center items-center gap-16 p-16 lg:flex-row">
             <div className="flex flex-col justify-center items-center gap-12 lg:items-start lg:px-10">
-                <div className="flex gap-4 items-center">
-                    <div className="w-32 h-32 rounded-full bg-[url(/me.jpeg)] bg-cover bg-center">
+                <div className="flex flex-col gap-4 items-center lg:flex-row">
+                    <div className="w-36 h-36 rounded-full bg-[url(/me.jpeg)] bg-cover bg-center lg:w-32 lg:h-32">
                        
                     </div>
                 <h2 className="tracking-wider text-main-text text-2xl text-opacity-80 font-semiboldbold">Salvatore Etiopia</h2>
