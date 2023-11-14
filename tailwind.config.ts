@@ -17,7 +17,8 @@ const config: Config = {
     colors: {
       "main-bg": "#172B03",
       "main-text": "#f2f4f3",
-      "secondary-text": "#C2C5AA"
+      "secondary-text": "#C2C5AA",
+      "icon":"#485837"
     }
   },
   plugins: [],

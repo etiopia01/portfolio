@@ -16,8 +16,7 @@ html {
     background-image: url("/countries.png");
 }
 .background {
-    background-image: url("/leaves.jpeg");
-    background-position: center;
-    background-size: contain;
+    background: url("/leaves.jpeg") no-repeat center center fixed;
+    background-size: cover;
    
 }
