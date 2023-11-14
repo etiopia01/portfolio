@@ -4,7 +4,7 @@ import SocialBar from "@/components/SocialBar";
 
 export default function ProjectsPage() {
     return (
-        <div className="flex justify-center items-center w-full h-full px-20">
+        <div >
             <NavBar/>
             <Projects/>
             <SocialBar/>

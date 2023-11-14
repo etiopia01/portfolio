@@ -21,11 +21,32 @@ const myProjects = [{
     title: "Countries Browser",
     des: "One of the first projects I made using React with an API",
     id:3
+},{
+    class : "countries",
+    github: "https://github.com/etiopia01/countries-list",
+    vercel: "https://countries-list-theta.vercel.app/",
+    title: "Countries Browser",
+    des: "One of the first projects I made using React with an API",
+    id:3
+},{
+    class : "countries",
+    github: "https://github.com/etiopia01/countries-list",
+    vercel: "https://countries-list-theta.vercel.app/",
+    title: "Countries Browser",
+    des: "One of the first projects I made using React with an API",
+    id:3
+},{
+    class : "countries",
+    github: "https://github.com/etiopia01/countries-list",
+    vercel: "https://countries-list-theta.vercel.app/",
+    title: "Countries Browser",
+    des: "One of the first projects I made using React with an API",
+    id:3
 }]
 
 export default function Projects() {
     return (
-        <div className="flex flex-col items-center justify-start gap-10 w-full  ">
+        <div className="flex flex-col items-center justify-start gap-10 mt-8">
             <h1 className="text-3xl font-bold text-main-text text-opacity-60">MY PROJECTS</h1>
             <div className="flex justify-center flex-wrap w-auto gap-16 p-10 overflow-y-scroll h-[500px]">
             {myProjects.map(project => <Project key={project.id} {...project}/>)}
