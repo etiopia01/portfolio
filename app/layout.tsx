@@ -2,8 +2,7 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import { Lora } from 'next/font/google'
-import NavBar from '@/components/NavBar'
-import SocialBar from '@/components/SocialBar'
+
 
 const lora = Lora({
   subsets: ["latin"],
@@ -15,7 +14,7 @@ const lora = Lora({
 
 
 export const metadata: Metadata = {
-  title: 'Very very cool Portfolio',
+  title: 'Sweet Portfolio',
   
 }
 
